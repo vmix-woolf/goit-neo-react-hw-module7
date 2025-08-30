@@ -1,0 +1,20 @@
+.wrapper {
+    margin-bottom: 24px;
+    max-width: 600px;
+    width: 100%;
+}
+
+.label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 500;
+}
+
+.input {
+    width: 100%;
+    padding: 8px 12px;
+    font-size: 16px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+

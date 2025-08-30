@@ -1,0 +1,39 @@
+.card {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    border: 2px solid black;
+    padding: 12px;
+    border-radius: 8px;
+    width: 100%;
+    box-sizing: border-box;
+    min-height: 80px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    max-width: 280px;
+}
+
+.name {
+    font-weight: 600;
+    margin: 0;
+    word-break: break-word;
+}
+
+.number {
+    margin: 0;
+    word-break: break-word;
+}
+
+.button {
+    background-color: #ddd;
+    border: 1px solid #999;
+    padding: 6px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    flex-shrink: 0;
+    margin-left: 16px;
+}
